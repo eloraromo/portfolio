@@ -1,7 +1,107 @@
 * {
   box-sizing: border-box;
+  cursor: url('cursor.png'), auto;
 }
 
 body {
-  margin:0;
+  margin:0px;
+}
+
+#menu {
+  width: 4vw;
+  height: 4vw;
+  border: 4px solid black;
+  border-radius: 15px;
+  background: #D5FF21;
+  top: 10px;
+  left: 10px;
+  position: fixed;
+}
+
+#logo {
+  position: relative;
+  left: 50%;
+  top: 5vw;
+  transform: translate(-50%, -50%);
+}
+
+#design {
+  position: absolute;
+  left: 50%;
+  top: 8vw;
+  transform: translate(-50%);
+}
+
+#printmaking {
+  position: absolute;
+  left: 50%;
+  top: 48vw;
+  transform: translate(-50%);
+}
+
+#collaboration {
+  position: absolute;
+  left: 50%;
+  top: 92vw;
+  transform: translate(-50%);
+}
+
+#text1 {
+  position: absolute;
+  left: 50%;
+  top: 30vw;
+  transform: translate(-50%);
+  z-index: 1;
+  font-size: 3em;
+  font-family: degular;
+  opacity: 0%;
+  background: #D5FF21;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 4px solid black;
+}
+
+#text1:hover {
+  opacity: 100%;
+}
+
+#text2 {
+  position: absolute;
+  left: 50%;
+  top: 72vw;
+  transform: translate(-50%);
+  z-index: 1;
+  font-size: 3em;
+  font-family: degular;
+  opacity: 0%;
+  background: #D5FF21;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 4px solid black;
+}
+
+#text2:hover {
+  opacity: 100%;
+}
+
+#text3 {
+  position: absolute;
+  left: 50%;
+  top: 113vw;
+  transform: translate(-50%);
+  z-index: 1;
+  font-size: 3em;
+  font-family: degular;
+  opacity: 0%;
+  background: #D5FF21;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 4px solid black;
+}
+
+#text3:hover {
+  opacity: 100%;
 }
