@@ -156,13 +156,32 @@ img::-moz-selection {
   .content3 {
     justify-content: center;
   }
+  #me {
+    width: 40%;
+  }
+  #logo {
+    width: 50%;
+    top:7vw;
+  }
 }
 
 
 @media screen and (max-width: 800px) {
-
+  #me {
+    width: 50%;
+  }
+  #logo {
+    width: 50%;
+    top: 8vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
-
+  #me {
+    width: 70%;
+  }
+  #logo {
+    width: 60%;
+    top: 10vw;
+  }
 }
