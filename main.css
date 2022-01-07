@@ -95,6 +95,11 @@ a:hover {
   height: 360px;
 }
 
+#menu2 {
+  width: 250px;
+  height: 360px;
+}
+
 .pages {
   opacity: 0%;
   padding: 15px;
