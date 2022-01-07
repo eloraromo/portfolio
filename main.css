@@ -167,6 +167,22 @@ img::-moz-selection {
     top:7vw;
     margin-bottom: 40px;
   }
+  .content span{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    font-size: 3em;
+    font-family: degular;
+    background: #D5FF21;
+    border-radius: 10px;
+    border: 4px solid black;
+    text-align: center;
+    color: black;
+    width: 300px;
+  }
+  .content:hover span{
+    width: 300px;
+  }
 }
 
 
