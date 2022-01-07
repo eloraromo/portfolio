@@ -192,8 +192,9 @@ img::-moz-selection {
     width: 70%;
   }
   #logo {
-    width: 65%;
+    width: 66%;
     top: 12vw;
+    left: 55%;
     margin-bottom: 20px;
   }
 }
