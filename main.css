@@ -168,7 +168,7 @@ img::-moz-selection {
 
 @media screen and (max-width: 800px) {
   #me {
-    width: 50%;
+    width: 60%;
   }
   #logo {
     width: 50%;
@@ -181,7 +181,7 @@ img::-moz-selection {
     width: 70%;
   }
   #logo {
-    width: 60%;
+    width: 65%;
     top: 10vw;
   }
 }
