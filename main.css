@@ -186,7 +186,7 @@ img::-moz-selection {
 
 @media screen and (max-width: 600px) {
   img{
-    width: 90%;
+    width: 95%;
   }
   #me {
     width: 70%;
