@@ -115,7 +115,7 @@ a:hover {
   left: 50%;
   top: 6vw;
   transform: translate(-50%, -50%);
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 #me {
@@ -147,6 +147,9 @@ img::-moz-selection {
 }
 
 @media screen and (max-width: 1000px) {
+  img{
+    width: 80%;
+  }
   .wrapper2 {
     grid-template-columns: 1fr;
   }
@@ -162,26 +165,35 @@ img::-moz-selection {
   #logo {
     width: 50%;
     top:7vw;
+    margin-bottom: 40px;
   }
 }
 
 
 @media screen and (max-width: 800px) {
+  img{
+    width: 80%;
+  }
   #me {
     width: 60%;
   }
   #logo {
-    width: 50%;
-    top: 8vw;
+    width: 60%;
+    top: 9vw;
+    margin-bottom: 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
+  img{
+    width: 80%;
+  }
   #me {
     width: 70%;
   }
   #logo {
     width: 65%;
     top: 10vw;
+    margin-bottom: 20px;
   }
 }
