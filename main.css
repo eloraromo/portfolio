@@ -5,6 +5,7 @@
 
 body {
   margin:0px;
+  font-family: degular;
 }
 
 a {
@@ -16,6 +17,48 @@ a {
 a:hover {
   color: white;
 }
+
+/* contact form */
+#contact {
+  border: 5px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  width: 62%;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: degular;
+  font-size: 1.2em;
+}
+
+input[type=submit] {
+  background-color: #D5FF21;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-family: degular;
+  font-size: 1.2em;
+}
+
+input[type=submit]:hover {
+  background-color: black;
+  color: white;
+}
+
+label {
+  font-family: degular;
+  font-size: 1.2em;
+}
+/* end of contact form */
 
 .wrapper {
   display: grid;
@@ -136,7 +179,7 @@ img::-moz-selection {
   padding: 15px;
   font-family: degular;
   font-size: 1.2em;
-  width: 70%;
+  width: 60%;
 }
 
 #bio::selection {
@@ -212,5 +255,11 @@ img::-moz-selection {
     top: 12vw;
     left: 55%;
     margin-bottom: 20px;
+  }
+  #bio {
+    width: 70%;
+  }
+  #contact{
+    width: 72%;
   }
 }
