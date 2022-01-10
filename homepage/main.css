@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(255,190,213);
+  background: linear-gradient(0deg, rgba(255,190,213,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+a {
+  padding: 5px;
+  font-size: 2vw;
+  color: #006987;
+  font-family: "degular medium";
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00b087;
+}
+
+a::selection {
+  background: transparent;
+}
+
+br::selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+.container {
+  position: fixed;
+  width: 80vw;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secret {
+  position: absolute;
+  top: 59%;
+  left: 30%;
+  width: 15vw;
+  height: 5vw;
+}
+
+.blah {
+  background: #f3ee06;
+  width: 15vw;
+  height: auto;
+  text-align: center;
+  display: none;
+  border-radius: 20px;
+  /* border: 4px solid #006987; */
+  padding: 4px;
+}
+
+.secret:hover .blah {
+  display: block;
+}
+
+.boots {
+  position: absolute;
+  bottom: 4.5%;
+  left: 52.5%;
+}
+
+.plant {
+  position: absolute;
+  bottom: 4.5%;
+  left: 69%;
+}
+
+.plant:hover {
+  cursor: pointer;
+}
+
+.boots:hover {
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:1300px) {
+  a {
+    font-size: 2vw;
+  }
+  .container {
+    width: 90vw;
+  }
+  .blah {
+    width: 17vw;
+  }
+  .secret {
+    width: 17vw;
+  }
+}
+
+@media screen and (max-width:1150px) {
+  a {
+    font-size: 3vw;
+  }
+  .container {
+    width: 100vw;
+  }
+  .blah {
+    width: 19vw;
+  }
+  .secret {
+    width: 19vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+  a {
+    font-size: 3.5vw;
+  }
+  .container {
+    width: 100vw;
+  }
+  .blah {
+    width: 20vw;
+    /* border: 2px solid #006987; */
+    border-radius: 10px;
+  }
+  .secret {
+    width: 20vw;
+  }
+  .boots {
+    position: absolute;
+    bottom: 8%;
+    left: 52.5%;
+  }
+
+  .plant {
+    position: absolute;
+    bottom: 8%;
+    left: 69%;
+  }
+}
