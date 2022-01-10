@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
-  cursor: url('cursor.png'), auto;
 }
 
 body {
   margin:0px;
   font-family: degular;
+  cursor: url('cursor.png'), auto;
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 
 a:hover {
   color: white;
+  cursor: url('cursor-link.png'), auto;
 }
 
 /* contact form */
