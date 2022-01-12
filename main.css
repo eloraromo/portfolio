@@ -22,7 +22,7 @@ a:hover {
 /* Slideshow */
 
 .slideshow-container {
-  max-width: 1000px;
+  width: 60%;
   position: relative;
   margin: auto;
 }
