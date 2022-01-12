@@ -309,6 +309,9 @@ img::-moz-selection {
   .content:hover span{
     width: 300px;
   }
+  .slideshow-container {
+    width: 80%;
+  }
 }
 
 
@@ -328,6 +331,9 @@ img::-moz-selection {
 
 @media screen and (max-width: 600px) {
   img{
+    width: 95%;
+  }
+  .slideshow-container {
     width: 95%;
   }
   #me {
