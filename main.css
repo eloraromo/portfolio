@@ -27,6 +27,12 @@ a:hover {
   margin: auto;
 }
 
+.slideshow-container2 {
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
