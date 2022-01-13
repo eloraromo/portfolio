@@ -45,6 +45,12 @@ a:hover {
   margin: auto;
 }
 
+.slideshow-container3 {
+  width: 45%;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
