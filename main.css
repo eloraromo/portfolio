@@ -40,7 +40,7 @@ a:hover {
 }
 
 .slideshow-container2 {
-  width: 80%;
+  width: 50%;
   position: relative;
   margin: auto;
 }
@@ -288,6 +288,37 @@ img::-moz-selection {
   background: #D5FF21; /* Gecko Browsers */
 }
 
+#bio a::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+#bio a::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+#bio br::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+#bio br::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+#blurb::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+#blurb::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+#blurb {
+  border: 5px solid #D5FF21;
+  border-radius: 15px;
+  padding: 15px;
+  font-family: degular;
+  font-size: 1.2em;
+  width: 85%;
+}
+
+
 @media screen and (max-width: 1000px) {
   img{
     width: 80%;
@@ -364,6 +395,9 @@ img::-moz-selection {
     margin-bottom: 20px;
   }
   #bio {
+    width: 70%;
+  }
+  #blurb {
     width: 70%;
   }
   #contact{
