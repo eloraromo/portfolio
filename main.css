@@ -15,7 +15,19 @@ a {
 }
 
 a:hover {
+  cursor: url('cursor-link.png'), auto;
+}
+
+#menu a:hover{
   color: white;
+  cursor: url('cursor-link.png'), auto;
+}
+
+#bio a:hover{
+  color: black;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #D5FF21;
   cursor: url('cursor-link.png'), auto;
 }
 
