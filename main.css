@@ -288,6 +288,20 @@ img::-moz-selection {
   background: #D5FF21; /* Gecko Browsers */
 }
 
+#menu a::selection {
+  background: none; /* WebKit/Blink Browsers */
+}
+#menu a::-moz-selection {
+  background: none; /* Gecko Browsers */
+}
+
+#menu br::selection {
+  background: none; /* WebKit/Blink Browsers */
+}
+#menu br::-moz-selection {
+  background: none; /* Gecko Browsers */
+}
+
 #bio a::selection {
   background: #D5FF21; /* WebKit/Blink Browsers */
 }
