@@ -173,6 +173,7 @@ label {
 
 .content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -180,15 +181,17 @@ label {
 
 .content2 {
   display: flex;
-  justify-content: right;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
   padding: 10px;
 }
 
 .content3 {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
   padding: 10px;
 }
 
