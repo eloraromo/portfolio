@@ -355,6 +355,13 @@ img::-moz-selection {
   width: 85%;
 }
 
+#fpfc1 {
+  margin-left: 35%;
+}
+#fpfc2 {
+  margin-right: 35%;
+}
+
 
 @media screen and (max-width: 1000px) {
   img{
@@ -370,6 +377,14 @@ img::-moz-selection {
   }
   .content3 {
     justify-content: center;
+  }
+  #fpfc1 {
+    margin-left: 0%;
+    width: 50%;
+  }
+  #fpfc2 {
+    margin-right: 0%;
+    width: 50%;
   }
   #me {
     width: 40%;
@@ -445,5 +460,11 @@ img::-moz-selection {
   }
   #contact{
     width: 72%;
+  }
+  #fpfc1 {
+    width: 95%;
+  }
+  #fpfc2 {
+    width: 95%;
   }
 }
