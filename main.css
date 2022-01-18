@@ -25,6 +25,13 @@ a {
   cursor: url('cursor-link.png'), auto;
 }
 
+.description2 a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #D5FF21;
+  cursor: url('cursor-link.png'), auto;
+}
+
 a:hover {
   cursor: url('cursor-link.png'), auto;
 }
