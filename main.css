@@ -215,6 +215,17 @@ label {
   padding: 10px;
 }
 
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 21%;
+  font-family: degular;
+  font-size: 1em;
+  width: 55%;
+}
+
 .content span::selection {
   background: none; /* WebKit/Blink Browsers */
 }
@@ -416,6 +427,10 @@ img::-moz-selection {
   .slideshow-container2 {
     width: 80%;
   }
+  .description {
+    margin-left: 12%;
+    width: 75%;
+  }
 }
 
 
@@ -429,7 +444,7 @@ img::-moz-selection {
   #logo {
     width: 60%;
     top: 9vw;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 }
 
@@ -450,7 +465,7 @@ img::-moz-selection {
     width: 66%;
     top: 12vw;
     left: 55%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   #bio {
     width: 70%;
@@ -466,5 +481,9 @@ img::-moz-selection {
   }
   #fpfc2 {
     width: 95%;
+  }
+  .description {
+    margin-left: 6%;
+    width: 90%;
   }
 }
