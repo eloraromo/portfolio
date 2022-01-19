@@ -32,6 +32,13 @@ a {
   cursor: url('cursor-link.png'), auto;
 }
 
+.description3 a:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #D5FF21;
+  cursor: url('cursor-link.png'), auto;
+}
+
 a:hover {
   cursor: url('cursor-link.png'), auto;
 }
@@ -255,6 +262,17 @@ label {
   width: 40%;
 }
 
+.description3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 9%;
+  font-family: degular;
+  font-size: 1em;
+  width: 60%;
+}
+
 .content span::selection {
   background: none; /* WebKit/Blink Browsers */
 }
@@ -464,6 +482,10 @@ img::-moz-selection {
     margin-left: 12%;
     width: 75%;
   }
+  .description3 {
+    margin-left: 12%;
+    width: 75%;
+  }
 }
 
 
@@ -520,6 +542,10 @@ img::-moz-selection {
     width: 89%;
   }
   .description2 {
+    margin-left: 6%;
+    width: 89%;
+  }
+  .description3 {
     margin-left: 6%;
     width: 89%;
   }
