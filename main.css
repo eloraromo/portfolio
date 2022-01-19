@@ -112,6 +112,13 @@ a:hover {
   border-radius: 3px 0 0 3px;
 }
 
+.prev::selection, .next::selection, .prev2::selection, .next2::selection {
+  background: none; /* WebKit/Blink Browsers */
+}
+.prev::-moz-selection, .next::-moz-selection, .prev2::-moz-selection, .next2::-moz-selection {
+  background: none; /* Gecko Browsers */
+}
+
 .prev2:hover, .next2:hover {
   color: white;
   background-color: rgba(0,0,0,0.8);
