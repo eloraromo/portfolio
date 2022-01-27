@@ -376,6 +376,69 @@ img::-moz-selection {
   background: #D5FF21; /* Gecko Browsers */
 }
 
+.description::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description2::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description2::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description3::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description3::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description p::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description p::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description2 p::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description2 p::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description3 p::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description3 p::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description a::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description a::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description2 a::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description2 a::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
+.description3 a::selection {
+  background: #D5FF21; /* WebKit/Blink Browsers */
+}
+.description3 a::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
 #menu a::selection {
   background: none; /* WebKit/Blink Browsers */
 }
