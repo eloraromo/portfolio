@@ -251,12 +251,18 @@ a:hover {
     top:7vw;
     margin-bottom: 40px;
   }
-
+  .slideshow-container {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
   body{
     font-size: 1.8em;
+  }
+
+  img {
+    width: 95%;
   }
 
   #logo {
@@ -268,11 +274,18 @@ a:hover {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .research {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   body{
     font-size: 1.5em;
+  }
+  img {
+    width: 95%;
   }
 
   #logo {
@@ -283,5 +296,12 @@ a:hover {
   .pages {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .research {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .slideshow-container {
+    width: 95%;
   }
 }
