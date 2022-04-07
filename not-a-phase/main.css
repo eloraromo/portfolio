@@ -20,6 +20,7 @@ a {
 
 a:hover {
   /* cursor: url('cursor-link.png'), auto; */
+  color: rgb(202, 135, 255);
 }
 
 #logo {
@@ -28,6 +29,11 @@ a:hover {
   top: 6vw;
   transform: translate(-50%, -50%);
   margin-bottom: 60px;
+}
+
+.research {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* -----------------------------------------HEADER---------------------------------------- */
@@ -68,7 +74,6 @@ a:hover {
 
 /* Next & previous buttons */
 .prev, .next {
-  cursor: url('cursor-link.png'), auto;
   position: absolute;
   top: 50%;
   width: auto;
@@ -83,7 +88,6 @@ a:hover {
 }
 
 .prev2, .next2 {
-  cursor: url('cursor-link.png'), auto;
   position: absolute;
   top: 50%;
   width: auto;
@@ -117,6 +121,7 @@ a:hover {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
+  color: white;
   background-color: rgba(0,0,0,0.8);
 }
 
