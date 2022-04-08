@@ -247,7 +247,7 @@ a:hover {
 
 @media screen and (max-width: 1000px) {
   #logo {
-    width: 50%;
+    width: 60%;
     top:7vw;
     margin-bottom: 40px;
   }
@@ -266,7 +266,7 @@ a:hover {
   }
 
   #logo {
-    width: 60%;
+    width: 65%;
     top: 9vw;
     margin-bottom: 50px;
   }
@@ -289,7 +289,7 @@ a:hover {
   }
 
   #logo {
-    width: 66%;
+    width: 90%;
     top: 12vw;
     margin-bottom: 50px;
   }
