@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  cursor: url('crayon.png'), auto;
 }
 
 body {
@@ -8,18 +9,17 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
-  cursor: url('cursor.png'), auto;
-  background:
+  cursor: url('crayon.png'), auto;
 }
 
 a {
   color: black;
-  /* cursor: url('cursor-link.png'), auto; */
   text-decoration: none;
+  cursor: url('crayon.png'), auto;
 }
 
 a:hover {
-  /* cursor: url('cursor-link.png'), auto; */
+  cursor: url('crayon.png'), auto;
   color: rgb(202, 135, 255);
 }
 
