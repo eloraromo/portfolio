@@ -23,6 +23,10 @@ a:hover {
   color: rgb(202, 135, 255);
 }
 
+h1 {
+  color: #FED506;
+}
+
 #logo {
   position: relative;
   left: 50%;
