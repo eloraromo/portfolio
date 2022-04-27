@@ -27,12 +27,23 @@ h1 {
   color: #FED506;
 }
 
+h2 {
+  color: #FED506;
+  text-align: center;
+}
+
 #logo {
   position: relative;
   left: 50%;
   top: 6vw;
   transform: translate(-50%, -50%);
   margin-bottom: 60px;
+}
+
+#prints {
+  overflow: scroll;
+  display: flex;
+  margin: 0px;
 }
 
 .research {
