@@ -11,6 +11,7 @@ body {
   font-size: 2em;
   cursor: url('crayon.png'), auto;
 }
+
 /* note here */
 a {
   color: black;
@@ -20,15 +21,15 @@ a {
 
 a:hover {
   cursor: url('crayon.png'), auto;
-  color: rgb(202, 135, 255);
+  color: #ca87ff;
 }
 
 h1 {
-  color: #FED506;
+  color: #6be2c1;
 }
 
 h2 {
-  color: #FED506;
+  color: #6be2c1;
   text-align: center;
 }
 
@@ -49,6 +50,54 @@ h2 {
 .research {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+p::selection {
+  background: #6be2c1;
+}
+
+p::-moz-selection {
+  background: #6be2c1;
+}
+
+a::selection {
+  background: #6be2c1;
+}
+
+a::-moz-selection {
+  background: #6be2c1;
+}
+
+b::selection {
+  background: #6be2c1;
+}
+
+b::-moz-selection {
+  background: #6be2c1;
+}
+
+h2::selection {
+  background: none;
+}
+
+h2::-moz-selection {
+  background: none;
+}
+
+h1::selection {
+  background: none;
+}
+
+h1::-moz-selection {
+  background: none;
+}
+
+img::selection {
+  background: none;
+}
+
+img::-moz-selection {
+  background: none;
 }
 
 /* -----------------------------------------HEADER---------------------------------------- */
@@ -300,7 +349,7 @@ h2 {
     font-size: 1.5em;
   }
   img {
-    width: 95%;
+    width: 98%;
   }
 
   #logo {
