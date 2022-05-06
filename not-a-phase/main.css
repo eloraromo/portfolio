@@ -126,7 +126,7 @@ img::-moz-selection {
 }
 
 .slideshow-container2 {
-  width: 45%;
+  width: 80%;
   position: relative;
   margin: auto;
 }
@@ -318,6 +318,10 @@ img::-moz-selection {
   .slideshow-container {
     width: 80%;
   }
+
+  .slideshow-container2 {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -366,6 +370,10 @@ img::-moz-selection {
     padding-right: 20px;
   }
   .slideshow-container {
+    width: 95%;
+  }
+
+  .slideshow-container2 {
     width: 95%;
   }
 }
