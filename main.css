@@ -467,6 +467,13 @@ img::-moz-selection {
   background: #D5FF21; /* Gecko Browsers */
 }
 
+p::selection {
+background: #D5FF21; /* WebKit/Blink Browsers */
+}
+p::-moz-selection {
+  background: #D5FF21; /* Gecko Browsers */
+}
+
 #blurb::selection {
   background: #D5FF21; /* WebKit/Blink Browsers */
 }
