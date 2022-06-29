@@ -507,7 +507,7 @@ br::-moz-selection {
   padding: 5px;
   width: 85%;
   border-radius: 18px;
-  animation: gradient .6s infinite;
+  animation: gradient .8s infinite;
   animation-timing-function: linear;
 }
 
