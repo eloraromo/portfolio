@@ -494,12 +494,21 @@ br::-moz-selection {
 }
 
 #blurb {
-  border: 5px solid #D5FF21;
+  /* border: 5px solid #D5FF21; */
+  background:  white;
   border-radius: 15px;
   padding: 15px;
   font-family: degular;
   font-size: 1.2em;
+  width: 100%;
+}
+#outline {
+  background: rgb(213,255,33);
+  padding: 5px;
   width: 85%;
+  border-radius: 18px;
+  animation: gradient .8s infinite;
+  animation-timing-function: linear;
 }
 
 #fpfc1 {
@@ -507,6 +516,21 @@ br::-moz-selection {
 }
 #fpfc2 {
   margin-right: 35%;
+}
+
+@keyframes gradient {
+  0% {
+    background: linear-gradient(90deg, rgba(213,255,33,1) 0%, rgba(111,255,133,1) 100%);
+  }
+  25% {
+    background: linear-gradient(90deg, rgba(111,255,133,1) 0%, rgba(0,255,241,1) 100%);
+  }
+  50% {
+    background: linear-gradient(90deg, rgba(0,255,241,1) 0%, rgba(111,255,133,1) 100%);
+  }
+  75% {
+    background: linear-gradient(90deg, rgba(111,255,133,1) 0%, rgba(213,255,33,1) 100%);
+  }
 }
 
 
@@ -617,7 +641,7 @@ br::-moz-selection {
   #bio {
     width: 95%;
   }
-  #blurb {
+  #outline {
     width: 95%;
   }
   #contact{
