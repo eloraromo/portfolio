@@ -314,38 +314,35 @@ label {
 }
 
 #menu {
-  width: 50px;
-  height: 50px;
+  width: 250px;
+  height: 360px;
   border: 4px solid black;
   border-radius: 15px;
   background: #D5FF21;
   top: 20px;
-  left: 20px;
+  left: -500px;
   position: fixed;
   font-family: degular;
   font-size: 2em;
   line-height: 2;
   z-index: 2;
-}
-
-#menu:hover {
-  width: 250px;
-  height: 360px;
-}
-
-.pages {
-  opacity: 0%;
   padding: 15px;
 }
 
-.pages:hover {
-  opacity: 100%;
-  width: 250px;
-  height: 350px;
+#button {
+    width: 50px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 15px;
+    background: #D5FF21;
+    top: 20px;
+    left: 20px;
+    position: fixed;
+    z-index: 2;
 }
 
 .active {
-  transform: translate(210px, 410px);
+  transform: translateX(520px);
 }
 
 #logo {

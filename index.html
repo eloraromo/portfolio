@@ -11,23 +11,23 @@
   </head>
 
   <body>
-    <div id="menu">
-      <div class="pages">
-        <a href="design.html" onMouseOver="this.style.background='black'"
-        onMouseOut="this.style.background='none'">design</a>
-        <br>
-        <a href="printmaking.html" onMouseOver="this.style.background='black'"
-        onMouseOut="this.style.background='none'">printmaking</a>
-        <br>
-        <a href="collaboration.html" onMouseOver="this.style.background='black'"
-        onMouseOut="this.style.background='none'">collaboration</a>
-        <br>
-        <a href="about.html" onMouseOver="this.style.background='black'"
-        onMouseOut="this.style.background='none'">about/contact</a>
-        <br>
-        <a href="https://eloraromo.bigcartel.com" target="_blank" onMouseOver="this.style.background='black'"
-        onMouseOut="this.style.background='none'">print shop</a>
-      </div>
+    <div id="button" onclick="toggle()"></div>
+
+    <div id="menu" onclick="toggle()">
+      <a href="design.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">design</a>
+      <br>
+      <a href="printmaking.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">printmaking</a>
+      <br>
+      <a href="collaboration.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">collaboration</a>
+      <br>
+      <a href="about.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">about/contact</a>
+      <br>
+      <a href="https://eloraromo.bigcartel.com" target="_blank" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">print shop</a>
     </div>
 
     <a href="index.html"><img src="logo.png" alt="elora romo" width="40%" id="logo"></a>
@@ -44,5 +44,11 @@
       </div>
     </div>
 
+    <script>
+      function toggle() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
