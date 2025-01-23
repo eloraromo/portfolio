@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<html>
+  <head>
+    <title>elora romo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale:1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ijn4qon.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+
+  <body>
+    <div id="button" onclick="toggle()"></div>
+
+    <div id="menu" onclick="toggle()">
+      <a href="design.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">design</a>
+      <br>
+      <a href="printmaking.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">printmaking</a>
+      <br>
+      <a href="collaboration.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">collaboration</a>
+      <br>
+      <a href="about.html" onMouseOver="this.style.background='black'"
+      onMouseOut="this.style.background='none'">about/contact</a>
+      <br>
+    </div>
+
+    <a href="index.html"><img src="logo.png" alt="elora romo" width="40%" id="logo"></a>
+
+    <div class="description3">
+      <p>Illustration, printed via sublimation onto a T-shirt</p>
+    </div>
+
+    <div class="wrapper2">
+
+      <div class="content">
+        <img src="design/shirt/shirt1.jpg" alt="" width="90%">
+      </div>
+      <div class="content">
+        <img src="design/shirt/shirt2.jpg" alt="" width="90%">
+      </div>
+
+    </div>
+
+    <script>
+      function toggle() {
+        var menu = document.getElementById("menu");
+        menu.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
